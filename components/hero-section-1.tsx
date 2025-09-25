@@ -118,7 +118,7 @@ export function HeroSection() {
                       className="rounded-xl px-5 text-base"
                     >
                       <Link href="#link">
-                        <span className="text-nowrap">Request a demo</span>
+                        <span className="text-nowrap">Get Early Access</span>
                       </Link>
                     </Button>
                   </div>
