@@ -37,7 +37,7 @@ export const CategoryList = ({
         <div className="text-center mb-12 md:mb-16">
           {headerIcon && (
             <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-br from-primary/80 to-primary mb-6 text-primary-foreground">
-              {headerIcon}
+              <img src="/dapperGithub.png" alt="Sol Dapper" className="w-10 h-10 object-contain" />
             </div>
           )}
           <h1 className="text-4xl md:text-5xl font-bold mb-2 tracking-tight text-foreground">{title}</h1>

@@ -87,10 +87,7 @@ export function HeroSection() {
             />
             <div className="mx-auto max-w-7xl px-6">
               <div className="text-center sm:mx-auto lg:mr-auto lg:mt-0">
-                <AnimatedGroup variants={transitionVariants}>
-                  <UpgradeBanner buttonText="Upgrade to Pro" description="" />
-                    
-
+                <AnimatedGroup variants={transitionVariants}> 
                   <TitleComponent />
                 </AnimatedGroup>
 
@@ -118,7 +115,7 @@ export function HeroSection() {
                       className="rounded-xl px-5 text-base"
                     >
                       <Link href="#link">
-                        <span className="text-nowrap">Get Early Access</span>
+                        <span className="text-nowrap">Early Access Soon</span>
                       </Link>
                     </Button>
                   </div>
@@ -273,17 +270,6 @@ const HeroHeader = () => {
                 </a>
               </div>
               <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit">
-                <Button
-                  asChild
-                  variant="outline"
-                  size="sm"
-                  className={cn(isScrolled && "lg:hidden")}
-                >
-                  <Link href="#">
-                    <span>Demo Access</span>
-                  </Link>
-                </Button>
-                
               </div>
             </div>
           </div>
