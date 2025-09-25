@@ -3,10 +3,7 @@
 import { HeroSection } from "@/components/hero-section-1";
 import { LayoutGrid, Bot, Code, Palette, ArrowRight } from 'lucide-react';
 import { CategoryList, Category } from "@/components/category-list";
-
 import { Footer } from "@/components/footer";
-
-
 
 const sampleCategories: Category[] = [
   {
@@ -61,9 +58,6 @@ const sampleCategories: Category[] = [
   },
 ];
 
-
-
-
 export default function Home() {
   return (
 
@@ -78,11 +72,6 @@ export default function Home() {
 
       <div className=" text-white">
         <HeroSection />
-
-
-        
-    
-
         <div id="features" className="w-full min-h-screen ">
           <CategoryList
             title="Sol-Dapper"
